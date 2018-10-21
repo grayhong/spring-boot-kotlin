@@ -19,6 +19,7 @@
     <modules>
         <module>spring-security</module>
         <module>spring-session</module>
+        <module>spring-webflux</module>
     </modules>
 
     <repositories>
