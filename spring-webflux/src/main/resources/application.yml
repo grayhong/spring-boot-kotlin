@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: none
+    hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate.id.new_generator_mappings: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_kotlin?useLegacyDatetimeCode=false&serverTimezone=GMT&useUnicode=true&useSSL=false
+    username: root
+    password: 1

@@ -14,6 +14,7 @@
         <jetbrains-annotations.version>16.0.1</jetbrains-annotations.version>
         <lombok.version>1.16.16</lombok.version>
         <kotlin.version>1.2.71</kotlin.version>
+        <kotlin-logging.version>1.6.10</kotlin-logging.version>
     </properties>
 
     <modules>
@@ -83,6 +84,11 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-reflect</artifactId>
                 <version>${kotlin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.microutils</groupId>
+                <artifactId>kotlin-logging</artifactId>
+                <version>${kotlin-logging.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
